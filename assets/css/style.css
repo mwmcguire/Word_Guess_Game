@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/mmbg");
+    color: #ffffff;
+}
+
+.container-header {
+    background: #000;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    border-bottom: #ffffff 2px solid;
+    padding: 40px 0 20px 0;
+    border-radius: 15px;
+}
+
+.container-game {
+    background: #000;
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+.box-1 {
+    flex: 2;
+    border: #ffffff 2px solid;
+    border-radius: 15px 5px 5px 15px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box-1 p {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.box-2 {
+    flex: 2;
+    border: #ffffff 2px solid;
+    border-radius: 5px 15px 15px 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box-2 p {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
